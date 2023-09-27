@@ -1,0 +1,76 @@
+.flattool{
+    .container{
+        display: flex;
+        flex-direction: column;
+        h2{
+            font-size: 32px;
+            padding-top: 52px;
+            padding-left: 250px;
+            span:nth-child(1){
+                color: #1dbb90;
+            }
+            span:nth-child(2){
+                color: #d34272;
+            }
+        }
+        .box{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 60px;
+            .box__N1{
+                .date{
+                    display: flex;
+                    padding-bottom: 30px;
+                    p{
+                        padding-left: 22px;
+                        font-size: 25px;
+                        span:nth-child(1){
+                            color: #d34272;
+                        }
+                        span:nth-child(2){
+                            color: #1dbb90;
+                        }
+                    }
+                }
+            }
+            .box__N2{
+                padding:0 60px;
+                .search{
+                    display: flex;
+                    padding-bottom: 30px;
+                    p{
+                        padding-left: 22px;
+                        font-size: 25px;
+                        span:nth-child(1){
+                            color: #d34272;
+                        }
+                        span:nth-child(2){
+                            color: #1dbb90;
+                        }
+                    }
+                }
+            }
+            .box__N3{
+                .customization{
+                    display: flex;
+                    padding-bottom: 30px;
+                    p{
+                        padding-left: 22px;
+                        font-size: 25px;
+                        span:nth-child(1){
+                            color: #d34272;
+                        }
+                        span:nth-child(2){
+                            color: #1dbb90;
+                        }
+                    }
+                }
+            }
+        }
+        .img{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+        }
+    }
+}

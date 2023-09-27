@@ -1,0 +1,48 @@
+.container_bottom{
+    width: 100%;
+    background-color:#d34272;
+    .bottom{
+        width: 960px;
+        height: 120px;
+        margin: 0 auto;
+        display: flex;
+        align-items:center;
+        .Messages{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            .text_new{
+                color: #fff;
+                H3{
+                    font-style: 21px;
+                }
+                H1{
+                    margin: 0;
+                    font-style: 32px;
+                }
+            }
+            .send_messages{
+                display: flex;
+                align-items:center;
+                input{
+                    width: 365px;
+                    height: 40px;
+                    outline: none;
+                    padding-left: 10px;
+                    border-top-left-radius: 30px;
+                    border-bottom-left-radius: 30px;
+                    border: none;
+                }
+                .png{
+                    width: 65px;
+                    height: 55px;
+                    background-color: #fff;
+                    border-radius: 5px;
+                    display: flex;
+                    justify-content: center;
+                    align-items:center;
+                }
+            }
+        }
+    }
+}

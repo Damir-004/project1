@@ -1,0 +1,141 @@
+.main_blok{
+    width: 100%;
+    height: 626px;
+    .container{
+        height: 106px;
+        .main{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding-top: 40px;
+            padding-bottom: 30px;
+            .company_name{
+                p:nth-child(1){
+                    cursor: pointer;
+                    font-size: 32px;
+                    span:nth-child(1){
+                        color: #d34272;
+                    }
+                    span:nth-child(2){
+                        color: #1dbb90;
+                    }
+                }
+                p:nth-child(2){
+                    cursor: pointer;
+                    font-size: 10px;
+                    margin-left: 29px;
+                }
+            }
+            .phone{
+                display: flex;
+                .logo{
+                    a{
+                        img{
+                            width: 30px;
+                            height:30px;
+                            border-radius: 5px;
+                        }
+                    }
+                    a:nth-child(4){
+                        margin-top: 10px;
+    
+                    }
+                }
+                .call{
+                    display: flex;   
+                    .call_now{
+                        font-size: 19px;
+                        margin-top: 5px;
+                        padding-left: 25px;
+                        font-family: 'PT Sans', sans-serif;
+                        color: #606060;
+                    }
+                    a{
+                        img{
+                            margin-top: -5px;
+                        }
+                    }
+                    .number{
+                        font-size: 29px;
+                        color: #d34272;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+    .center_block{
+        background-color: #1dbb90;
+        .container{
+            height: 410px;
+            display: flex;
+            justify-content: space-between;
+            .center_block__left{
+                width: 50%;
+                img{
+                    padding-top: 60px;
+                }
+            }
+            .center_block__right{
+                width: 50%;
+                padding-top: 60px;
+                padding-left: 57px;
+                padding-right: 40px;
+                p:nth-child(1){
+                    font-size: 43px;
+                    padding: 15px 0;
+                    color: #fff;
+                }
+                p:nth-child(2){
+                    font-size: 15px;
+                    padding: 10px 0;
+                    font-weight: 300;
+                    font-family: 'PT Sans', sans-serif;
+                }
+            }
+        }
+    }
+    .main_bottom{
+        background-color: #d34272;
+        .container{
+            height: 110px;
+            display: flex;
+            justify-content: flex-end;
+            align-items:center;
+            .bottom_block{
+                right: 0;
+                display: flex;
+                color: #fff;
+                font-family: 'PT Sans', sans-serif;
+                .bottom_block__left{
+                    cursor: pointer;
+                    width: 200px;
+                    height: 40px; 
+                    background-color: #1dbb90;
+                    border-radius: 7px;
+                    display: flex;
+                    justify-content: center;
+                    align-items:center;
+                    margin-right: 22px;
+                    padding: 5px;
+                }
+                .bottom_block__left:hover{
+                    background-color: #474747;
+                }
+                .bottom_block__right{
+                    cursor: pointer;
+                    width: 138px;
+                    height: 40px;
+                    background-color: #1dbb90;
+                    border-radius: 7px;
+                    display: flex;
+                    justify-content: center;
+                    align-items:center;
+                }
+                .bottom_block__right:hover{
+                    background-color: #474747;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,83 @@
+.sing_up_you{
+    width: 100%;
+    height: 570px;
+    .main_text_sing_up_you{
+        padding: 30px;
+        font-size: 25px;
+        margin: 0 25%;
+        span:nth-child(1){
+            color: #d34272;
+        }
+        span:nth-child(2){
+            color: #1dbb90;
+        }
+    }
+    .container{
+        display: flex;
+        justify-content: space-between;
+        .block__prick{
+            width: 30%;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            color: #fff;
+            border-radius: 5px;
+            .prick{
+                width: 200px;
+                height: 45px;
+                margin: 0 auto;
+                padding: 12px;
+                border-bottom-left-radius: 5px;
+                border-bottom-right-radius: 5px;
+            }
+            p{
+                font-style: 20px;
+                padding-top: 30px;
+                padding-bottom: 20px;
+            }
+            ul{
+                font-family: 'PT Sans', sans-serif;
+                li{
+                    font-size: 15px;
+                    padding: 15px 0;
+                }
+            }
+            .Buy_now{
+                width: 135px;
+                height: 35px;
+                margin: 0 auto;
+                padding: 7px;
+                cursor: pointer;
+                border-radius: 5px;
+            }
+        }
+        .block__prick:nth-child(1){
+            background-color: #606060;
+            .prick{
+                background-color: #1dbb90;
+            }
+            .Buy_now{
+                background-color: #1dbb90;
+            }
+        }
+        .block__prick:nth-child(2){
+            background-color: #d34272;
+            .prick{
+                background-color: #606060;
+            }
+            .Buy_now{
+                background-color: #606060;
+            }
+        }
+        .block__prick:nth-child(3){
+            background-color: #1dbb90;
+            .prick{
+                background-color: #d34272;
+            }
+            .Buy_now{
+                background-color: #d34272;
+            }
+        }
+    }
+}
